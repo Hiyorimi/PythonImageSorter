@@ -166,7 +166,7 @@ class FolderList:
 
 		x = -150
 		y = self.FOLDER_HEIGHT/2
-		if self.folders[0] != None:
+		if len(self.folders) >0:
 			prevLetter = self.folders[0].getStatus()[0][0]
 		for folder in self.folders:
 			currLetter = folder.getStatus()[0][0]
