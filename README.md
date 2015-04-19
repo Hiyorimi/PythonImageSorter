@@ -4,3 +4,6 @@ You can progress to the next image with the Enter key. When you press Enter, the
 It also allows you to create new folders in the program.
 
 Supports jpeg and jpg, png, and gif image formats.
+
+# Requires
+PIL for the image preview.
